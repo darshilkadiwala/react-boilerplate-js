@@ -29,8 +29,61 @@ This project has been initiated with the concept of modules, pages, components a
   │   ├── utils/        # Utility functions
   │   ├── App.jsx       # Root component
   │   ├── index.jsx     # Application entry point
+
+├── api
+│   ├── services
+│   │   ├── Job.js
+│   │   ├── User.js
+│   ├── auth.js
+│   └── axios.js
+├── components
+│   ├── Job
+│   │   ├── Description.js
+│   │   └── Preview.js
+│   └── User
+│   │   ├── Card.js
+│   │   ├── Create.js
+│   │   └── List.js
+│   │
+├── i18n
+│   ├── de.json
+│   └── en.json
+├── modules
+│   ├── logger.js
+│   └── session.js
+├── pages
+│   ├── Home
+│   │   ├── components
+│   │   │   ├── Dashboard.js
+│   │   │   └── Welcome.js
+│   │   └── index.js
+│   ├── Login.js
+│   └── Profile.js
+├── stores
+│   ├── language.js
+│   └── user.js
+├── tests
+│   ├── language.test.js
+│   └── utils.test.js
+├── utils
+│   ├── hooks
+│   │   ├── useChat.js
+│   │   ├── useOutsideAlerter.js
+│   │   ├── useToast.js
+│   ├── providers
+│   │   ├── HomeContextProvider.js
+│   │   ├── ToastContextProvider.js
+│   ├── colors.js
+│   ├── constants.js
+│   ├── index.js
+├── index.js
+├── main.js
+└── style.css
   ...
   ```
+
+https://dev.to/larswaechter/how-i-structure-my-react-projects-jii
+
 
 Example:
 
