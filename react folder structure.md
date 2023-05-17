@@ -1,0 +1,74 @@
+- public/
+  - index.html
+  - favicon.ico
+  - manifest.json
+- src/
+  - assets/
+    - images/
+      - svg/
+        - logo.svg
+    - styles/
+      - styles.scss
+  - components/
+    - common/
+      - Buttons/
+        - OutlinedButton/
+          - index.jsx
+          - style.css
+        - index.jsx
+        - style.css
+      - index.jsx
+    - HOC/
+    - Component1/
+      - sub-component/
+        - index.jsx
+        - style.css
+      - index.jsx
+      - style.css
+    - ...
+    - index.jsx
+  - layouts/
+    - RootLayout/
+      - index.jsx
+    - index.jsx
+  - pages/
+    - Home/
+      - index.jsx
+    - About/
+      - index.jsx
+    - Contact/
+      - index.jsx
+  - utils/
+    - api.axios.js
+    - helpers.js
+    - constants.js
+  - routes/
+    - index.js
+    - private.routes.js
+    - public.routes.js
+  - services/
+    - index.js
+    - user.service.js
+    - product.service.js
+    - common.service.js
+  - hooks/
+    - index.js
+    - useAuth.js
+  - store/
+    - slices/
+      - index.js
+      - user.slice.js
+      - product.slice.js
+    - sagas/
+      - index.js
+      - user.saga.js
+      - product.saga.js
+    - index.js
+  - App.jsx
+  - index.jsx
+- .env
+- .env.example
+- .gitignore
+- README.md
+- package-lock.json
+- package.json
